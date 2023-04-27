@@ -5,9 +5,10 @@ this program loops into a csv file that has column format. As you initialize eac
 
 
 1) create entities in datastore with a kind-name
-2) open your csv file instead of the example
-3) initialize the rows/entities in order, with the rows of your csv file
-4) check datastore to see the data 
+2) initialize your kind-name
+3) open your csv file instead of the example
+4) initialize the rows/entities in order, with the rows of your csv file 
+5) check datastore to see the data 
 ---------------------
 
 
@@ -16,5 +17,6 @@ this program loops into a csv file that has column format. As you initialize eac
 this program will also loop into a csv file, but does not need column format.However, there is a size cap. This program is meant to send data into datastore in small amounts, with one entity which is 'paragraph'. 
 
 1) create entity in datastore under a new kind-name titled 'paragraph'
+2) initialize our kind-name
 2) open your csv file instead of example
 3) check datastore to see the data
